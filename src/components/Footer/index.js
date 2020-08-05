@@ -1,15 +1,22 @@
 import React from 'react';
 import { FooterBase } from './styles';
 import Logo from '../../assets/img/Logo.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <FooterBase>
-      <a title="jennyffermorais.github.io" href="https://jennyffermorais.github.io">
+       <Link to="/">
       <img className="Logo" src={Logo} alt="blackflix logo" />
-      </a>
+      </Link>
       <p>
-        Orgulhosamente desenvolvido pela Jennyffer durante a
+        Orgulhosamente desenvolvido pela 
+        {' '}
+        <a title="Site da Jennyffer" href="https://jennyffermorais.github.io">
+         Jennyffer  
+        </a>
+        {' '}
+        durante a
         {' '}
         <a title="Site de Alura" href="https://www.alura.com.br/">
           Imersão React da Alura
