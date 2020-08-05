@@ -1,4 +1,6 @@
 # Blackflix
+Projeto da imersão React Alura. Recriação da Netflix, apenas com youtubers pretos.
+
 ![home da Blackflix](https://i.imgur.com/haffJKq.png)
 
 
