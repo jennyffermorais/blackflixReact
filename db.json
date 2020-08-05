@@ -1,201 +1,234 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Gabi Oliveira",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "Nátaly Neri",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        }
-      },
-      {
-        "id": 3,
-        "titulo": "Spartakus Santiago",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/cursos-online-mobile"
-        }
-      },
-      {
-        "id": 4,
-        "titulo": "Ana Paula Xongani",
-        "cor": "orange"
-      },
-      {
-        "id": 5,
-        "titulo": "Nath Finanças",
-        "cor": "red",
-        "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-      },
-      {
-        "id": 6,
-        "titulo": "Papo de preta",
-        "cor": "#6b5be2",
-        "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Gabi Oliveira",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Canal De pretas por Gabi Oliveira",
+        "url": "https://www.youtube.com/channel/UCF108KZPnFVxP8lILiJ1kng"
       }
-    ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Componentização com VanillaJS #AluraMais",
-        "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "Pare de chutar e aprenda a display: inline #01",
-        "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-        "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-      },
-      {
-        "id": 6,
-        "categoriaId": 1,
-        "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-      },
-      {
-        "id": 7,
-        "categoriaId": 1,
-        "titulo": "Novidades do Angular v9",
-        "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-      },
-      {
-        "id": 8,
-        "categoriaId": 2,
-        "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-        "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-      },
-      {
-        "id": 9,
-        "categoriaId": 2,
-        "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-        "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-      },
-      {
-        "id": 10,
-        "categoriaId": 2,
-        "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-        "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-      },
-      {
-        "id": 11,
-        "categoriaId": 2,
-        "titulo": "API: Dicionário do Programador",
-        "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-      },
-      {
-        "id": 12,
-        "categoriaId": 2,
-        "titulo": "Usando Git Direito",
-        "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-      },
-      {
-        "id": 13,
-        "categoriaId": 3,
-        "titulo": "Teste de Turing",
-        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-      },
-      {
-        "id": 14,
-        "categoriaId": 3,
-        "titulo": "O que é Data Science?",
-        "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-      },
-      {
-        "id": 15,
-        "categoriaId": 3,
-        "titulo": "Melhor forma de aprender Python",
-        "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-      },
-      {
-        "id": 16,
-        "categoriaId": 3,
-        "titulo": "Como ingressar no mercado de Data Science?",
-        "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-      },
-      {
-        "id": 17,
-        "categoriaId": 4,
-        "titulo": "Interestellar",
-        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-      },
-      {
-        "id": 18,
-        "categoriaId": 4,
-        "titulo": "Gattaca",
-        "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-      },
-      {
-        "id": 19,
-        "categoriaId": 4,
-        "titulo": "A Chegada",
-        "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-      },
-      {
-        "id": 20,
-        "categoriaId": 4,
-        "titulo": "Feitiço do Tempo",
-        "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-      },
-      {
-        "id": 21,
-        "categoriaId": 5,
-        "titulo": "Final Fantasy 7",
-        "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-      },
-      {
-        "id": 22,
-        "categoriaId": 5,
-        "titulo": "Assassins Creed Valhalla",
-        "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-      },
-      {
-        "id": 23,
-        "categoriaId": 5,
-        "titulo": "God of War 4",
-        "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-      },
-      {
-        "id": 24,
-        "categoriaId": 5,
-        "titulo": "Resident Evil 8",
-        "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 2,
+      "titulo": "Nátaly Neri",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Canal Afros e afins",
+        "url": "https://www.youtube.com/channel/UCjivwB8MrrGCMlIuoSdkrQg"
       }
-    ]
-  }
-  
+    },
+    {
+      "id": 3,
+      "titulo": "Spartakus Santiago",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Canal Spartakus",
+        "url": "https://www.youtube.com/c/spartakus/featured"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Ana Paula Xongani",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Canal Ana Paula Xongani",
+        "url": "https://www.youtube.com/channel/UCy1qQtNZ2xxv6YE24jlZRFA"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Nath Finanças",
+      "cor": "red",
+      "link_extra": {
+        "text": "Canal Nath Finanças",
+        "url": "https://www.youtube.com/channel/UCmhzmQBdXP9TeRtpQ-iWSPg"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Papo de preta",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Canal Papo de preta",
+        "url": "https://www.youtube.com/c/PapodePreta/featured"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "As fake news estão tentando atrapalhar o #blacklivesmatter - GABI OLIVEIRA",
+      "url": "https://www.youtube.com/watch?v=om6feDqoVRU"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "QUER COMEÇAR A ORGANIZAR SUA VIDA FINANCEIRA? NATH FINANÇAS TE AJUDA!! - GABI OLIVEIRA",
+      "url": "https://www.youtube.com/watch?v=wTnSMw4NtXA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "CONVERSAS QUE IMPORTAM",
+      "url": "https://www.youtube.com/watch?v=QtS3bcQ8lkw&t=5438s"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "E A CARÊNCIA NA QUARENTENA? COMO ANDA O PROCESSO DE ADOÇÃO? | GABI OLIVEIRA - DEPRETAS",
+      "url": "https://www.youtube.com/watch?v=2LXPnyiRsgs"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "AS FAKE NEWS ESTÃO TENTANDO ATRAPALHAR O #BLACKLIVESMATTER - GABI OLIVEIRA",
+      "url": "https://www.youtube.com/watch?v=om6feDqoVRU&t=1s"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "LIVRO E DOCUMENTÁRIO SOBRE MICHELLE OBAMA - 6 LIÇÕES PRA VIDA | PAPO DEPRETAS - GABI OLIVEIRA",
+      "url": "https://www.youtube.com/watch?v=bByBnhY--3s"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "PASSAR FOME OU SER CONTAMINADO PELO CORONAVÍRUS?? QUE ISSO??",
+      "url": "https://www.youtube.com/watch?v=Q8VJSem5phE"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "ESTEREÓTIPOS da Mulher NEGRA Brasileira",
+      "url": "https://www.youtube.com/watch?v=cvp3rvYVaDo"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Questões raciais, gênero, sexualidade e muito fogo no parquinho - Tudo sobre Little Fires Everywhere",
+      "url": "https://www.youtube.com/watch?v=c86idKTqJ1w"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "#ConversasQueImportam com Linn da Quebrada, Nátaly Neri e Thelminha Assis",
+      "url": "https://www.youtube.com/watch?v=wuQGNQ6u0oI"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Vegana que não tem dó dos animais?: Compaixão X Ética",
+      "url": "https://www.youtube.com/watch?v=qHVrhXV7tOs"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "3 ARMADILHAS DO RACISMO NO MERCADO DE TRABALHO / UNIVERSIDADE E VIDA ADULTA- E outras coisas...",
+      "url": "https://www.youtube.com/watch?v=KeQgY6VZdAA"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "O SIGNIFICADO DE LEMONADE: PARTE 2 (Análise) - Beyoncé | Spartakus Santiago",
+      "url": "https://www.youtube.com/watch?v=4yARi4wGKB4"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "AS REFERÊNCIAS DE BLACK PARADE (Beyoncé) - Análise | Spartakus Santiago",
+      "url": "https://www.youtube.com/watch?v=VkAdyn1piv8"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "COMO THELMA VIROU A CAMPEÃ DO #BBB20? - Análise da trajetória: racismo estrutural, feminismo & mais",
+      "url": "https://www.youtube.com/watch?v=zIh5-3EwnTE"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "O outro lado da representatividade - Sobre a série de Marielle e lugar de fala | Spartakus Santiago",
+      "url": "https://www.youtube.com/watch?v=HTkRamZbEs0"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "ANTI-R4CISTA NA QUARTA-FEIRA POS BLACKOUTTUESDAY | Ana Paula Xongani",
+      "url": "https://www.youtube.com/watch?v=eGjeGjguelc"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Colorismo - RODRIGO BRANCO E SEU RACISMO SELETIVO| Ana Paula Xongani",
+      "url": "https://www.youtube.com/watch?v=H0qGeiAVqOk"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Creators for Change: Por que preciso voltar à escola | Ana Paula Xongani",
+      "url": "https://www.youtube.com/watch?v=fRchFXCZsYU"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "QUEM SÃO AS MULHERES DA SUA VIDA?! | Ana Paula Xongani",
+      "url": "https://www.youtube.com/watch?v=qL6HTLmJ3OU"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "TUDO SOBRE A NOTA DE 200 REAIS | NATH FINANÇAS",
+      "url": "https://www.youtube.com/watch?v=DHgsNxrxyMU"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "EDUCAÇÃO É UM GASTO OU UM INVESTIMENTO? | NATH FINANÇAS",
+      "url": "https://www.youtube.com/watch?v=4i50eZ_DPvw"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "PIRÂMIDES FINANCEIRAS NO BRASIL | NATH FINANÇAS",
+      "url": "https://www.youtube.com/watch?v=QBKaOp9M4uo"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "BOLETOS: COMO PRIORIZAR E NEGOCIAR? FEAT. BOLETINHOS | LIVE DA NATH",
+      "url": "https://www.youtube.com/watch?v=o6wnrEMzV-w"
+    },
+    {
+      "titulo": "O que podemos aprender com Beyoncé? - Papo de Preta",
+      "url": "https://www.youtube.com/watch?v=EJQT32PCh1w",
+      "categoriaId": 6,
+      "id": 25
+    },
+    {
+      "titulo": "O posicionamento político de Beyoncé através dos anos - Papo de Preta",
+      "url": "https://www.youtube.com/watch?v=CJPk2Mv80Vo",
+      "categoriaId": 6,
+      "id": 26
+    },
+    {
+      "titulo": "Mulheres negras INVENTORAS e INSPIRADORAS - Papo de Preta",
+      "url": "https://www.youtube.com/watch?v=ZNSjZ2nFNm4",
+      "categoriaId": 6,
+      "id": 27
+    },
+    {
+      "titulo": "Programas RACISTAS que você já assistiu - Papo de Preta",
+      "url": "https://www.youtube.com/watch?v=mEDKb7Vm4EU",
+      "categoriaId": 6,
+      "id": 28
+    },
+    {
+      "titulo": "TUDO que você PRECISA saber sobre o PANTERA NEGRA!!!",
+      "url": "https://www.youtube.com/watch?v=g88xXZT_eKw&t=328s",
+      "categoriaId": 6,
+      "id": 29
+    }
+  ]
+}
